@@ -1,22 +1,6 @@
-package javastudy;
+package javastudy; //클래스들을 묶어놓은 폴더
 
 public class Test {
-
-    public static void main(String[] args) {
-        int a = 10;
-        int b = 20;
-        System.out.println(a + b);
-        System.out.println(a * b);
-        if (a < b) {
-            System.out.println("true");
-        }
-        switch (a) {
-            case 1 :
-                System.out.println(1);
-            case 5 :
-                System.out.println(5);
-            case 10 :
-                System.out.println(10);
-        }
-    }
+    public String name;
+    public static int[] scores = new int[3];//scores라는 리스트 생성
 }
